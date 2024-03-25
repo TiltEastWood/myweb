@@ -1,0 +1,101 @@
+html {
+    font-size: 14px;
+  }
+     
+  html {
+    position: relative;
+    min-height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+  }
+  .textWithForm{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .bigbox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  input[type=text], input[type=password]{
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      display: table-cell;
+      text-align: center;
+  
+  }
+  
+  button{
+      background-color: #81cbf5;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+  }
+
+  .submitbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+  }
+
+  .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .forgotBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header{
+    padding: 80px;
+    text-align: center;
+    background-color: #81cbf5;
+    color: black;
+
+  }
+
+  .header h1{
+    font-size: 40px;
+  }
+
+  .NavigationBar{
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    
+  }
+
+  .NavigationBar a{
+    float: left;
+    padding: 20px 50px 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .NavigationBar a:hover{
+    background-color: #81cbf5;
+    color: white;
+    opacity: 0.6;
+    transition: 0.2s;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
